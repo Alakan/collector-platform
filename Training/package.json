@@ -1,0 +1,12 @@
+{
+  "name": "collector-api",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r src/* dist/",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
